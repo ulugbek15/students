@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+    <form id="form">
+        <input class="searcInput" type="text" >
+        <select class="filter">
+            <option selected disabled value="unsorted">Unsorted</option>
+            <option value="old_new">Old_New</option>
+            <option value="new_old">New_Old</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+
+    <table class="demo">
+        <caption>O'quvchilar ro'yhati</caption>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Old</th>
+            <th>Phone Number</th>
+        </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+    </table>
+
+    
+    <script src="./js/data.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
